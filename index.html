@@ -1092,8 +1092,12 @@
         <i class="fas fa-arrow-up"></i>
     </div>
 </body>
-    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="api/Counting/jquery.countup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script type="text/javascript" src="api/slickslider/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.counter').countUp();
+        });
+    </script>
 </html>
